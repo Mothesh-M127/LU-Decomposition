@@ -13,7 +13,7 @@ To write a program to find the LU Decomposition of a matrix.
 3. 
 4. 
 
-## Program:
+## Program1:
 ```
 /*
 Program to find the LU Decomposition of a matrix.
@@ -23,7 +23,7 @@ RegisterNumber:
 ```
 
 ## Output:
-![lu decomposition]()
+![image](https://user-images.githubusercontent.com/94170892/147044720-3b221100-e3c0-4b62-ab4f-259689a1389f.png)
 
 
 ## Result:
