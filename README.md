@@ -21,11 +21,37 @@ Developed by:
 RegisterNumber: 
 */
 ```
+# To print L and U matrix
+import numpy as np
+from scipy.linalg import lu
+#import scipy
+A=np.array(eval(input()))
+P,L,U=lu(A)
+print(L)
+print(U)
 
-## Output:
-![image](https://user-images.githubusercontent.com/94170892/147044720-3b221100-e3c0-4b62-ab4f-259689a1389f.png)
+## Program2:
+```
+/*
+Program to find the LU Decomposition of a matrix.
+Developed by: 
+RegisterNumber: 
+*/
+```
+# To print X matrix (solution to the equations)
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+A=np.array(eval(input()))
+B=np.array(eval(input()))
+lu,pivot=lu_factor(A)
+x=lu_solve((lu,pivot),B)
+print(x)
 
+## Output1:
+![lu1](https://user-images.githubusercontent.com/94170892/147044793-5851e370-42c7-4e0d-b564-f2da9103e61b.png)
 
+## Output2:
+![lu2](https://user-images.githubusercontent.com/94170892/147044978-0ade3486-8f94-4b7f-8933-b9fa4c6442ad.png)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
